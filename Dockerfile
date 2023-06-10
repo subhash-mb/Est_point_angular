@@ -5,7 +5,7 @@ FROM node:16.14.0-alpine3.14 as build
 
 #working directory of containerized app
 WORKDIR /app
-
+   
 #copy the react app to the container
 COPY . /app/
 
